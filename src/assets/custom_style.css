@@ -1,0 +1,99 @@
+#app {
+  margin: 0 !important;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+.vue_demo_brandImage img {
+  max-width: 150px;
+}
+
+.navbar {
+  background-color: #25499f !important;
+  display: flex;
+}
+
+.navbar-toggler {
+  border: 2px solid #fff;
+  background-color: #f2f4f6 !important;
+}
+
+.register_container {
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+}
+.register_container img {
+  width: 40%;
+  margin-left: 90px;
+}
+
+.register_container p {
+  text-align: start;
+  margin-top: 4px;
+}
+
+.text-danger {
+  color: red;
+  font-size: small;
+}
+
+.register_container input,
+.register_container select {
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c7c8c7;
+  border-radius: 4px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #232322;
+  padding: 7px 12px;
+  transition: all 0.15s ease-in-out;
+  resize: none;
+}
+
+.register_container select {
+  padding: 10px 12px;
+  margin-bottom: 12px;
+}
+
+.register_container button {
+  padding: 10px 20px;
+  background: #000;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.register_container button a{
+ color: #f2f4f6;
+}
+
+.router_viewpagesection {
+  min-height: calc(100vh - 142px);
+}
+
+.footer-bottom-content {
+  padding: 10px;
+  background-color: #191426;
+  color: #f2f4f6;
+}
+
+.footer-bottom-content .copyright-text {
+  margin: auto;
+}
+
+.register_container h5 {
+  text-align: left;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.register_container {
+  padding: 50px;
+  background: lightgray;
+  border-radius: 12px;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 22%);
+}
